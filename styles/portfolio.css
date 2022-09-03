@@ -1,20 +1,66 @@
+:root {
+  --main-colour: lawngreen;
+  --default-colour: black;
+}
+
+body {
+  background-color: var(--default-colour);
+  color: white;
+}
+
 h1,
-h2 {
-  text-align: center;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Yeseva One", cursive, Arial;
+  font-weight: bold;
 }
 
 h1 {
+  background-color: var(--main-colour);
+  font-size: 96px;
+  color: var(--default-colour);
+  margin-bottom: 0px;
+  border: 1px solid var(--main-colour);
+  border-radius: 10px 10px 0 0;
+}
+
+p {
   font-family: "Yeseva One", cursive, Arial;
-  font-weight: lighter;
-  background-color: lawngreen;
-  color: black;
   margin-bottom: 0px;
 }
 
-h2 {
-  font-family: "Special Elite", cursive;
+.btn {
+  color: var(--default-colour);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.hero {
+  background: rgb(128, 253, 111);
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding: 160px 20px;
+  border: 1px solid var(--default-colour);
+  border-radius: 30px;
+}
+
+.hero p {
+  color: rgb(37, 37, 37);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-family: "Special Elite", cursive, monospace;
   font-size: 18px;
-  background-color: black;
-  color: lawngreen;
+  background-color: var(--default-colour);
+  color: var(--main-colour);
   margin-top: 0px;
+  margin-bottom: 5px;
+  border: 1px solid var(--default-colour);
+  border-radius: 0 0 10px 10px;
 }
