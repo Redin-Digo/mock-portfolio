@@ -1,0 +1,20 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Yeseva One", cursive, Arial;
+  font-weight: lighter;
+  background-color: lawngreen;
+  color: black;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  background-color: black;
+  color: lawngreen;
+  margin-top: 0px;
+}
