@@ -192,6 +192,15 @@ content h3 {
   opacity: 70%;
 }
 
+.contact-link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: lightgreen;
+}
+
 @media (max-width: 900px) {
   .info {
     text-align: center;
