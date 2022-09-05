@@ -84,8 +84,7 @@ p {
 }
 
 .col-md-6,
-.info,
-h2 {
+.info h2 {
   font-family: "Special Elite", cursive, monospace;
   color: var(--main-colour);
   padding: 10px;
@@ -157,26 +156,26 @@ h2 {
   height: 600px;
 }
 
-.about-section {
+.btn-about {
+  color: var(--main-colour);
+  border: 1px solid var(--main-colour);
+}
+
+.content-container {
   padding: 120px 60px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
-}
-
-.btn-about {
-  color: var(--main-colour);
-  border: 1px solid var(--main-colour);
 }
 
 @media (max-width: 900px) {
@@ -188,7 +187,7 @@ h2 {
     font-size: 66px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
