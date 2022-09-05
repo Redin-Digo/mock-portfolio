@@ -6,6 +6,9 @@
 body {
   background-color: var(--default-colour);
   color: white;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
 }
 
 h1,
@@ -19,6 +22,7 @@ h6 {
 }
 
 h1 {
+  text-align: center;
   background-color: var(--main-colour);
   font-size: 96px;
   color: var(--default-colour);
@@ -55,12 +59,17 @@ p {
   padding: 160px 20px;
   border: 1px solid var(--default-colour);
   border-radius: 30px;
+  max-width: 1200px;
 }
 
 .hero p {
   color: rgb(37, 37, 37);
   font-size: 36px;
   font-weight: bold;
+}
+
+.hero h1 {
+  text-align: center;
 }
 
 .hero h2 {
@@ -143,7 +152,7 @@ h2 {
   border-radius: 15px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .info {
     text-align: center;
   }
@@ -154,6 +163,10 @@ h2 {
 
   h2 {
     font-size: 48px;
+  }
+
+  .img-fluid {
+    display: none;
   }
 
   .project-desciption,
