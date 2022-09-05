@@ -90,6 +90,11 @@ p {
   padding: 10px;
 }
 
+.info {
+  font-family: "Special Elite", cursive, monospace;
+  color: var(--main-colour);
+}
+
 .yogurt {
   text-align: center;
 }
@@ -176,6 +181,15 @@ p {
 
 .content {
   margin: 30px;
+}
+
+content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.work {
+  opacity: 70%;
 }
 
 @media (max-width: 900px) {
