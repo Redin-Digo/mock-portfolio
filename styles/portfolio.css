@@ -201,6 +201,43 @@ content h3 {
   color: lightgreen;
 }
 
+.logo {
+  max-height: 150px;
+  border: 1px solid rgb(43, 42, 42);
+  border-radius: 100px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--main-colour);
+}
+
+nav a:hover {
+  color: rgb(66, 192, 50);
+  transition: all 400ms ease-in-out;
+  font-size: 14px;
+}
+
+nav li.active a {
+  color: rgb(16, 112, 4);
+}
+
 @media (max-width: 900px) {
   .info {
     text-align: center;
@@ -225,5 +262,13 @@ content h3 {
   h2 {
     padding: 0;
     text-align: center;
+  }
+  .logo {
+    display: none;
+  }
+
+  .header-container {
+    font-size: 12px;
+    justify-content: space-around;
   }
 }
